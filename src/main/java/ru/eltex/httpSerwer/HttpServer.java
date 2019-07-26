@@ -37,6 +37,7 @@ public class HttpServer {
             } catch (Throwable t) {
                 /*do nothing*/
             } finally {
+                System.out.println("test");
                 try {
                     s.close();
                 } catch (Throwable t) {
